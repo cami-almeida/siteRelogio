@@ -4,7 +4,7 @@ body{
 }
 
 nav{
-    padding: 30px;
+    padding: 5px;
     background-color: rgb(0, 0, 0);
     justify-content: space-around;
     display: flex;
@@ -22,18 +22,33 @@ nav a:hover{
 
 nav h1{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }
 
-footer{
-    background-color: white;
+section{
     align-items: center;
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    padding: 30px;
+}
+
+section img{
+    padding: 20px;
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer img{
-    padding: 20px;
+    width: 60px;
 }
